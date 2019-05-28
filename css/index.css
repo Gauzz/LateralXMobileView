@@ -1,3 +1,31 @@
-html{
+
+body{
+    font-size:24px;
+    overflow-x: hidden;
+}
+
+#abc{
+    font-size: 28px;
+    text-align: center;
+    margin: 10px;
+}
+
+.form{
+    margin: 10px;
+}
+
+.map{
+    width: 91%;
+    margin: 10px;
+    height: 300px;
+    align-content: center;
+}
+
+.contacts{
+    /* width: 286px; */
     text-align: center;
 }
+
+/* #buttton{
+   margin-left: 90px;
+} */

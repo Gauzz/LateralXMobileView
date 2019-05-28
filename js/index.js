@@ -1,0 +1,23 @@
+function myMap() {
+    var mapProp= {
+      center:new google.maps.LatLng(22.756748,75.902977),
+      zoom:20,
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    var marker = new google.maps.Marker({position: center});
+
+    marker.setMap(map);
+    }
+
+    function facebook(){
+        window.open("https://www.facebook.com/LateralX");
+      }
+      function twitter(){
+        window.open("https://twitter.com/LateralX_");
+      }
+      function instagram(){
+        window.open("https://www.instagram.com/LateralX_/");
+      }
+      function linkedin(){
+        window.open("https://www.linkedin.com/company/lateralx/about/");
+      }
