@@ -1,3 +1,8 @@
 html{
     text-align: center;
 }
+
+#imag{
+    left:4px;
+    position:absolute;
+}
