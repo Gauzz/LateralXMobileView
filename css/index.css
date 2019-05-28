@@ -65,6 +65,13 @@ body{
     background-color: black;
 }
 
+#dwnldbuilding{
+    position: absolute;
+    top:85px;
+    left:1px;
+    width:264px
+}
+
 #dwnldbuild{
     /* background-color: black; */
     width:100vw;
