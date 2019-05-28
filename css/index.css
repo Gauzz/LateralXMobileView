@@ -12,6 +12,39 @@ body{
     height:100vh;
    }  */
 
+   .VR{
+       height: 50px;
+   }
+
+#pic1{
+    width: 31.25vw;
+    z-index: -1;
+    position: absolute;
+    margin-top: 6.563vw;
+    margin-left: 5vw;
+}
+
+
+#pic2{
+    width: 31.25vw;
+    z-index: -1;
+    position: absolute;
+    margin-top: 60vw;
+    margin-left: 49.688vw;
+
+}
+
+.vid{
+    width: 40.625vw;
+    position: absolute;
+    margin-top: 29.688vw;
+    margin-left: 23.438vw;
+
+
+}
+
+
+
 #logo{
     position:absolute;
     width:72px;
@@ -65,10 +98,12 @@ body{
 
 #ab{
     font-size:28px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #info{
     font-size:18px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #brochvid{
