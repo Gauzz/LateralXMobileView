@@ -50,6 +50,18 @@ body{
     position:absolute;
 }
 
+.shad{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.281), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#ab{
+    font-size:28px;
+}
+
+#info{
+    font-size:18px;
+}
 
 .DW{
     /* background-color: black; */
@@ -58,6 +70,9 @@ body{
     width: 100vw;
     position: relative;
     
+}
+.grad1{
+    height: 920px;
 }
 
 .bgrnd{
@@ -129,6 +144,6 @@ body{
         width:70px;
     }
   }
-#grad1{
-    height: 920px;
-}
+
+
+
