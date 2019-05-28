@@ -39,9 +39,22 @@ body{
     }
 
     #mobtext{
-        font-size: 32px;
-    
+        font-size: 35px;
+        
     font-family: 'Ubuntu', sans-serif;
+    }
+
+    #introtext{
+      
+        font-size: 20px;
+      
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #info{
+        color: rgba(8, 0, 0, 0.274);
+        font-size: 20px;
+      
+        font-family: 'Ubuntu', sans-serif;
     }
 
 
