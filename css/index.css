@@ -196,6 +196,20 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
+.BR{
+    position: relative;
+    top: 368px;
+}
+.DW{
+    position: relative;
+    top: 750px;
+}
+
+#bropicdiv{
+        position: relative;
+        left: 65px;
+}
+
 @media only screen and (min-width: 320px) {
     #imag{
         top:560px;
@@ -251,17 +265,34 @@ body{
     }
 
     #brochtext{
-        text-align: left;
-        margin-left: 0px;
+        text-align: center;
+        margin-left: 9px;
         font-family: 'Ubuntu', sans-serif;
         display: block;
         margin-top: 141px;
     }
     #infobroch{
+        position: relative;
         color: rgba(8, 0, 0, 0.274);
-        width: 310px;
+        width: 311px;
+        left: -18px;
         font-size: 18px;
     }
+
+    .BR{
+        position: relative;
+        top: 368px;
+    }
+
+    .DW{
+        position: relative;
+        top: 750px;
+    }
+
+    #bropicdiv{
+        position: relative;
+        left: 30px;
+}
 
 
 }
@@ -287,6 +318,29 @@ body{
         width:200px;
         font-family: 'Ubuntu', sans-serif;
     }
+
+    #infobroch{
+        position: relative;
+        color: rgba(8, 0, 0, 0.274);
+        width: 311px;
+        left: 11px;
+        font-size: 18px;
+    }
+
+    .BR {
+        position: relative;
+        top: 510px;
+    }
+
+    .DW{
+        position: relative;
+        top: 960px;
+    }
+
+    #bropicdiv{
+        position: relative;
+        left: 52px;
+}
   }
 
   
@@ -307,6 +361,14 @@ body{
         text-align: right;
         width:200px;
         font-family: 'Ubuntu', sans-serif;
+    }
+
+    #infobroch {
+        position: relative;
+        color: rgba(8, 0, 0, 0.274);
+        width: 311px;
+        left: 37px;
+        font-size: 18px;
     }
   }
   
