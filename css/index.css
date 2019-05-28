@@ -12,8 +12,50 @@ body{
     height:100vh;
    }  */
 
+   #build{
+    position: absolute;
+    width: 125vw;
+    margin-left: -34.125vw;
+    margin-top: 11.875vw;
+    z-index:-1;
+   }
+
+   #phone{
+    position: absolute;
+    width: 22.500vw;
+    margin-top: 40.938vw;
+    margin-left: 33.125vw;
+
+
+    }
+
+#bro{
+    position: absolute;
+    width: 39.688vw;
+    transform: rotate(8deg);
+    margin-top: 44.688vw;
+    z-index: -1;
+    margin-left: 48.438vw;
+    }
+
+    #mobtext{
+        font-size: 32px;
+    
+    font-family: 'Ubuntu', sans-serif;
+    }
+
+
+
    .VR{
-       height: 50px;
+       height: 203vw;
+   }
+
+   #service{
+    height: 200px;
+   }
+
+   #pic{
+    margin-top: -59.875vw;
    }
 
 #pic1{
