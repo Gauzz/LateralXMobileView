@@ -1,3 +1,49 @@
+
+body{
+    font-size:24px;
+    overflow-x: hidden;
+}
+
+/* #grad1{
+    height: 600px;
+    background-color: red; For browsers that do not support gradients
+    background-image: linear-gradient(rgb(4, 39, 92), rgb(59, 124, 197)); 
+    width:100vw;
+    height:100vh;
+   }  */
+
+#logo{
+    position:absolute;
+    width:72px;
+    top:7px;
+    left:5px;
+}
+
+#abc{
+    font-size: 28px;
+    text-align: center;
+    margin: 10px;
+}
+
+.form{
+    margin: 10px;
+}
+
+.map{
+    width: 91%;
+    margin: 10px;
+    height: 300px;
+    align-content: center;
+}
+
+.contacts{
+    /* width: 286px; */
+    text-align: center;
+}
+
+/* #buttton{
+   margin-left: 90px;
+} */
 #imag{
     top:320px;
     left:0px;
@@ -42,7 +88,7 @@
 
 @media only screen and (max-width: 320px) {
     #imag{
-        top:494px;
+        top:517px;
         left:0px;
         position:absolute;
     }
@@ -76,3 +122,6 @@
         width:70px;
     }
   }
+#grad1{
+    height: 920px;
+}
