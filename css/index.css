@@ -94,10 +94,12 @@ body{
 
 #ab{
     font-size:28px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #info{
     font-size:18px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .DW{
