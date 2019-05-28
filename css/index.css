@@ -146,45 +146,8 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
-@media only screen and (max-width: 320px) {
-    #imag{
-        top:554px;
-        left:0px;
-        position:absolute;
-    }
-  }
-
-  @media only screen and (max-width: 320px) {
-    .bgrnd{
-        left:0px;
-        background-color: black;
-    }
-  }
-  
-  @media only screen and (max-width: 320px) {
-    #dwnldtxt{
-        top:10px;
-        font-size: 25px;
-        color: white;
-        position: relative;
-        left:32%;
-        text-align: right;
-        width:200px;
-        font-family: 'Ubuntu', sans-serif;
-    }
-  }
-
-  @media only screen and (max-width: 320px) {
-    #dwnldicon{
-    
-        position: relative;
-        top:-16px;
-        left:65%;
-        width:70px;
-    }
-  }
 .grad1{
-    height: 920px;
+    height: 1136px;
 }
 
 #introheadtext{
@@ -198,3 +161,95 @@ body{
 #footer{
     font-family: 'Ubuntu', sans-serif;
 }
+
+@media only screen and (min-width: 320px) {
+    #imag{
+        top:560px;
+        left:0px;
+        position:absolute;
+    }
+
+    .bgrnd{
+        left:0px;
+        background-color: black;
+    }
+
+    #dwnldtxt{
+        top:10px;
+        font-size: 25px;
+        color: white;
+        position: relative;
+        left:32%;
+        text-align: right;
+        width:200px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    #dwnldicon{
+    
+        position: relative;
+        top:-16px;
+        left:65%;
+        width:70px;
+    }
+
+    .grad1{
+        height: 920px;
+    }
+
+    .grad1{
+        height: 920px;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 375px) {
+    #imag{
+        top:479px;
+        left:0px;
+        position:absolute;
+    }
+
+    #dwnldtxt{
+        top:10px;
+        font-size: 25px;
+        color: white;
+        position: relative;
+        left:44%;
+        text-align: right;
+        width:200px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+  }
+
+  
+
+  @media only screen and (min-width: 425px) {
+    #imag{
+        top:395px;
+        left:0px;
+        position:absolute;
+    }
+
+    #dwnldtxt{
+        top:10px;
+        font-size: 25px;
+        color: white;
+        position: relative;
+        left:51%;
+        text-align: right;
+        width:200px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+  }
+  
+  
+
+ 
+
+
+
+
