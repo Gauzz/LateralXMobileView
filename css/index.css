@@ -12,8 +12,63 @@ body{
     height:100vh;
    }  */
 
+   #build{
+    position: absolute;
+    width: 125vw;
+    margin-left: -34.125vw;
+    margin-top: 11.875vw;
+    z-index:-1;
+   }
+
+   #phone{
+    position: absolute;
+    width: 22.500vw;
+    margin-top: 40.938vw;
+    margin-left: 33.125vw;
+
+
+    }
+
+#bro{
+    position: absolute;
+    width: 39.688vw;
+    transform: rotate(8deg);
+    margin-top: 44.688vw;
+    z-index: -1;
+    margin-left: 48.438vw;
+    }
+
+    #mobtext{
+        font-size: 35px;
+        
+    font-family: 'Ubuntu', sans-serif;
+    }
+
+    #introtext{
+      
+        font-size: 20px;
+      
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #info{
+        color: rgba(8, 0, 0, 0.274);
+        font-size: 20px;
+      
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+
+
    .VR{
-       height: 50px;
+       height: 203vw;
+   }
+
+   #service{
+    height: 200px;
+   }
+
+   #pic{
+    margin-top: -59.875vw;
    }
 
 #pic1{
@@ -281,8 +336,13 @@ body{
 
     .BR{
         position: relative;
-        top: 368px;
+        top: -90px;
     }
+
+    .MA{
+        position: relative;
+        top: 300px;
+}
 
     .DW{
         position: relative;
@@ -329,8 +389,13 @@ body{
 
     .BR {
         position: relative;
-        top: 510px;
+        top: -50px;
     }
+
+    .MA{
+        position: relative;
+        top: 422px;
+}
 
     .DW{
         position: relative;
@@ -369,6 +434,15 @@ body{
         width: 311px;
         left: 37px;
         font-size: 18px;
+    }
+
+    .BR {
+        position: relative;
+        top: -137px;
+    }
+    .MA{
+            position: relative;
+            top: 300px;
     }
   }
   
