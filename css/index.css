@@ -23,10 +23,12 @@ body{
     font-size: 28px;
     text-align: center;
     margin: 10px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .form{
     margin: 10px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .map{
@@ -34,11 +36,13 @@ body{
     margin: 10px;
     height: 300px;
     align-content: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .contacts{
     /* width: 286px; */
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* #buttton{
@@ -91,11 +95,12 @@ body{
     left:35%;
     text-align: right;
     width:484px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 @media only screen and (max-width: 320px) {
     #imag{
-        top:517px;
+        top:554px;
         left:0px;
         position:absolute;
     }
@@ -117,6 +122,7 @@ body{
         left:32%;
         text-align: right;
         width:200px;
+        font-family: 'Ubuntu', sans-serif;
     }
   }
 
@@ -129,6 +135,18 @@ body{
         width:70px;
     }
   }
-#grad1{
+.grad1{
     height: 920px;
+}
+
+#introheadtext{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#introtext{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#footer{
+    font-family: 'Ubuntu', sans-serif;
 }
