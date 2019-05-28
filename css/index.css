@@ -1,8 +1,78 @@
-html{
-    text-align: center;
-}
-
 #imag{
-    left:4px;
+    top:320px;
+    left:0px;
     position:absolute;
 }
+
+
+.DW{
+    /* background-color: black; */
+    top:550px;
+    /* left:10px; */
+    width: 100vw;
+    position: relative;
+    
+}
+
+.bgrnd{
+    left:-25px;
+    background-color: black;
+}
+
+#dwnldbuild{
+    /* background-color: black; */
+    width:100vw;
+    position:absolute;  
+}
+#dwnldicon{
+    
+    position: relative;
+    left:75%;
+    width:100px;
+}
+
+#dwnldtxt{
+    /* font-size: 45px; */
+    color: white;
+    position: relative;
+    left:35%;
+    text-align: right;
+    width:484px;
+}
+
+@media only screen and (max-width: 320px) {
+    #imag{
+        top:494px;
+        left:0px;
+        position:absolute;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .bgrnd{
+        left:0px;
+        background-color: black;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    #dwnldtxt{
+        top:10px;
+        font-size: 25px;
+        color: white;
+        position: relative;
+        left:32%;
+        text-align: right;
+        width:200px;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    #dwnldicon{
+    
+        position: relative;
+        top:-16px;
+        left:65%;
+        width:70px;
+    }
+  }
