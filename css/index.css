@@ -116,6 +116,7 @@ body{
 
 #brochhead{
     font-size:28px;
+    text-align: left;
 }
 
 .form{
@@ -186,6 +187,7 @@ body{
     color: rgba(8, 0, 0, 0.274);
     width: 479px;
     font-size: 20px;
+    text-align: left;
 }
 
 
@@ -235,9 +237,9 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
-.grad1{
+/* .grad1{
     height: 1136px;
-}
+} */
 
 #introheadtext{
     font-family: 'Ubuntu', sans-serif;
@@ -297,13 +299,17 @@ body{
     }
 
     .grad1{
-        height: 920px;
+        height: 778px;
+        /* background-image: linear-gradient(rgb(4, 39, 92), rgb(59, 124, 197)); Standard syntax (must be last) */
+        /* width:100vw; */
     }
 
-    .grad1{
-        height: 920px;
+    #brochhead{
+        position: relative;
+        font-size:28px;
+        text-align: left;
+        left:-8px;
     }
-
     
     #brochvid{
             position: absolute;
@@ -329,8 +335,8 @@ body{
     #infobroch{
         position: relative;
         color: rgba(8, 0, 0, 0.274);
-        width: 311px;
-        left: -18px;
+        width: 310px;
+        left: -7px;
         font-size: 18px;
     }
 
@@ -368,6 +374,10 @@ body{
         position:absolute;
     }
 
+    .grad1 {
+        height: 816px;
+    }
+
     #dwnldtxt{
         top:10px;
         font-size: 25px;
@@ -382,8 +392,8 @@ body{
     #infobroch{
         position: relative;
         color: rgba(8, 0, 0, 0.274);
-        width: 311px;
-        left: 11px;
+        width: 338px;
+        left: -7px;
         font-size: 18px;
     }
 
@@ -417,6 +427,10 @@ body{
         position:absolute;
     }
 
+    .grad1 {
+        height: 778px;
+    }
+
     #dwnldtxt{
         top:10px;
         font-size: 25px;
@@ -432,7 +446,7 @@ body{
         position: relative;
         color: rgba(8, 0, 0, 0.274);
         width: 311px;
-        left: 37px;
+        left: -7px;
         font-size: 18px;
     }
 
