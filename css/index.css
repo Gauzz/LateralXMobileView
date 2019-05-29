@@ -45,7 +45,7 @@ body{
     }
 
 #introtext{
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Ubuntu', sans-serif;
     }
 
@@ -136,7 +136,7 @@ body{
     position:absolute;
     width:50px;
     top:7px;
-    left:5px;
+    left:14px;
 }
 
 #abc{
@@ -270,6 +270,7 @@ body{
 #introheadtext{
     font-family: 'Ubuntu', sans-serif;
     color: white;
+    font-size: 32px;
 }
 
 #introtext{
@@ -283,7 +284,7 @@ body{
 
 @media only screen and (min-width: 320px) {
     #imag{
-        top:492px;
+        top:364px;
         left:0px;
         position:absolute;
     }
@@ -313,7 +314,7 @@ body{
     }
 
     .grad1 {
-        height: 779px;
+        height: 653px;
         background-image: linear-gradient(rgb(4, 39, 92), rgb(59, 124, 197));
         /* width: 100vw; */
     }
@@ -387,7 +388,7 @@ body{
 
 @media only screen and (min-width: 375px) {
     #imag{
-        top:479px;
+        top:315px;
         left:0px;
         position:absolute;
     }
@@ -412,7 +413,7 @@ body{
 
   @media only screen and (min-width: 425px) {
     #imag{
-        top:395px;
+        top:272px;
         left:0px;
         position:absolute;
     }
