@@ -38,36 +38,34 @@ body{
     margin-left: 48.438vw;
     }
 
-    #mobtext{
-        font-size: 35px;
+#mobtext{
+    font-size: 35px;
         
     font-family: 'Ubuntu', sans-serif;
     }
 
-    #introtext{
-      
-        font-size: 20px;
-      
-        font-family: 'Ubuntu', sans-serif;
+#introtext{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
     }
-    #info{
-        color: rgba(8, 0, 0, 0.274);
-        font-size: 20px;
-      
-        font-family: 'Ubuntu', sans-serif;
+
+#info{
+    color: rgba(8, 0, 0, 0.274);
+    font-size: 20px;      
+    font-family: 'Ubuntu', sans-serif;
     }
 
 
 
-   .VR{
-       height: 203vw;
+.VR{
+   height: 203vw;
    }
 
-   #serv{
+/* #serv{
    
-   }
+   } */
 
-   #picc{
+#picc{
     margin-top: -108.5vw;
    }
 
@@ -75,11 +73,11 @@ body{
    /* .MA{
     height: 313.75vw;
    } */
-   #service{
+#service{
     height: 200px;
    }
 
-   #pic{
+#pic{
     margin-top: -59.875vw;
    }
 
@@ -136,7 +134,7 @@ body{
 
 #logo{
     position:absolute;
-    width:72px;
+    width:50px;
     top:7px;
     left:5px;
 }
@@ -271,10 +269,12 @@ body{
 
 #introheadtext{
     font-family: 'Ubuntu', sans-serif;
+    color: white;
 }
 
 #introtext{
     font-family: 'Ubuntu', sans-serif;
+    color: white;
 }
 
 #footer{
