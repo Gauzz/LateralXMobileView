@@ -363,12 +363,12 @@ body{
 
     .MA{
         position: relative;
-        top: 300px;
+        top: 347px;
         height: 950px
     }
 
     #picc{
-        margin-top: -108.5vw;
+        margin-top: -104.5vw;
        }
 
     .DW{
@@ -379,6 +379,7 @@ body{
     #bropicdiv{
         position: relative;
         left: 30px;
+        top:53px;
 }
 
 }
