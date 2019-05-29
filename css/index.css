@@ -300,7 +300,7 @@ body{
 
     .grad1{
         height: 778px;
-        /* background-image: linear-gradient(rgb(4, 39, 92), rgb(59, 124, 197)); Standard syntax (must be last) */
+        background-image: linear-gradient(rgb(4, 39, 92), rgb(59, 124, 197)); Standard syntax (must be last)
         /* width:100vw; */
     }
 
