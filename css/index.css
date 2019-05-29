@@ -63,6 +63,18 @@ body{
        height: 203vw;
    }
 
+   #serv{
+   
+   }
+
+   #picc{
+    margin-top: -62.500vw;
+   }
+
+
+   .MA{
+    height: 193.750vw;
+   }
    #service{
     height: 200px;
    }
@@ -98,7 +110,29 @@ body{
 
 }
 
+.CR{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
 
+.stat{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    color: rgb(165, 165, 165);
+    text-align: center;
+    width: 40.75vw;
+    /* margin-top: 20px; */
+
+}
+
+.counter{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:23px;
+    color:rgb(165, 165, 165);
+    text-align: center;
+
+}
 
 #logo{
     position:absolute;
@@ -159,7 +193,7 @@ body{
 
 .DW{
     /* background-color: black; */
-    top:550px;
+    top:110px;
     /* left:10px; */
     width: 100vw;
     position: relative;
