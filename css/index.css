@@ -298,10 +298,10 @@ body{
         width:70px;
     }
 
-    .grad1{
-        height: 778px;
+    .grad1 {
+        height: 849px;
         background-image: linear-gradient(rgb(4, 39, 92), rgb(59, 124, 197));
-        /* width:100vw; */
+        /* width: 100vw; */
     }
 
     #brochhead{
