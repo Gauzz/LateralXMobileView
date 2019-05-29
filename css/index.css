@@ -108,6 +108,14 @@ body{
 
 }
 
+#space{
+    height:38px;
+}
+
+#space2{
+    height:75px;
+}
+
 .CR{
     text-align: center;
     margin: 5px;
@@ -405,9 +413,33 @@ body{
         font-family: 'Ubuntu', sans-serif;
     }
 
+    #bropicdiv {
+        position: relative;
+        left: 30px;
+        top: 85px;
+    }
+
+    #serv{
+        position: relative;
+        top: 55px;
+    }
+
+    #space{
+        height: 180px;
+    }
+
+    #space2{
+        height: 175px
+    }
+
     #picc{
-        margin-top: -96.5vw;
+        margin-top: -70.5vw;
        }
+
+       .DW {
+        position: relative;
+        top: 120px;
+    }
   }
 
   
