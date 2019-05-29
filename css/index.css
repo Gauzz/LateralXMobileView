@@ -364,7 +364,11 @@ body{
         position: relative;
         top: 300px;
         height: 950px
-}
+    }
+
+    #picc{
+        margin-top: -108.5vw;
+       }
 
     .DW{
         position: relative;
@@ -400,8 +404,7 @@ body{
     }
 
     #picc{
-        position: relative;
-        top:380px;
+        margin-top: -96.5vw;
        }
   }
 
@@ -424,6 +427,10 @@ body{
         width:200px;
         font-family: 'Ubuntu', sans-serif;
     }
+
+    #picc{
+        margin-top: -89.5vw;
+       }
   }
   
   
