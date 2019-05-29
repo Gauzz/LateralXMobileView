@@ -63,6 +63,18 @@ body{
        height: 203vw;
    }
 
+   #serv{
+   
+   }
+
+   #picc{
+    margin-top: -108.5vw;
+   }
+
+
+   /* .MA{
+    height: 313.75vw;
+   } */
    #service{
     height: 200px;
    }
@@ -98,7 +110,29 @@ body{
 
 }
 
+.CR{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
 
+.stat{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    color: rgb(165, 165, 165);
+    text-align: center;
+    width: 40.75vw;
+    /* margin-top: 20px; */
+
+}
+
+.counter{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:23px;
+    color:rgb(165, 165, 165);
+    text-align: center;
+
+}
 
 #logo{
     position:absolute;
@@ -112,11 +146,6 @@ body{
     text-align: center;
     margin: 10px;
     font-family: 'Ubuntu', sans-serif;
-}
-
-#brochhead{
-    font-size:28px;
-    text-align: left;
 }
 
 .form{
@@ -190,12 +219,11 @@ body{
     text-align: left;
 }
 
-
 .DW{
     /* background-color: black; */
-    top:550px;
+    top:110px;
     /* left:10px; */
-    width: 100vw;
+    width: 103vw;
     position: relative;
     
 }
@@ -237,9 +265,9 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
-/* .grad1{
+.grad1{
     height: 1136px;
-} */
+}
 
 #introheadtext{
     font-family: 'Ubuntu', sans-serif;
@@ -253,23 +281,9 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
-.BR{
-    position: relative;
-    top: 368px;
-}
-.DW{
-    position: relative;
-    top: 750px;
-}
-
-#bropicdiv{
-        position: relative;
-        left: 65px;
-}
-
 @media only screen and (min-width: 320px) {
     #imag{
-        top:560px;
+        top:492px;
         left:0px;
         position:absolute;
     }
@@ -299,10 +313,11 @@ body{
     }
 
     .grad1 {
-        height: 849px;
+        height: 779px;
         background-image: linear-gradient(rgb(4, 39, 92), rgb(59, 124, 197));
         /* width: 100vw; */
     }
+
 
     #brochhead{
         position: relative;
@@ -312,11 +327,11 @@ body{
     }
     
     #brochvid{
-            position: absolute;
-            width: 160px;
-            top: 329px;
-            left: 16px;
-    }
+        position: absolute;
+        width: 160px;
+        top: 329px;
+        left: 16px;
+}
 
     #brochure{
         top: 487px;
@@ -348,11 +363,12 @@ body{
     .MA{
         position: relative;
         top: 300px;
+        height: 950px
 }
 
     .DW{
         position: relative;
-        top: 750px;
+        top: 75px;
     }
 
     #bropicdiv{
@@ -360,9 +376,7 @@ body{
         left: 30px;
 }
 
-
 }
-
 
 
 
@@ -372,10 +386,6 @@ body{
         top:479px;
         left:0px;
         position:absolute;
-    }
-
-    .grad1 {
-        height: 816px;
     }
 
     #dwnldtxt{
@@ -389,33 +399,10 @@ body{
         font-family: 'Ubuntu', sans-serif;
     }
 
-    #infobroch{
+    #picc{
         position: relative;
-        color: rgba(8, 0, 0, 0.274);
-        width: 338px;
-        left: -7px;
-        font-size: 18px;
-    }
-
-    .BR {
-        position: relative;
-        top: -50px;
-    }
-
-    .MA{
-        position: relative;
-        top: 422px;
-}
-
-    .DW{
-        position: relative;
-        top: 960px;
-    }
-
-    #bropicdiv{
-        position: relative;
-        left: 52px;
-}
+        top:380px;
+       }
   }
 
   
@@ -427,10 +414,6 @@ body{
         position:absolute;
     }
 
-    .grad1 {
-        height: 778px;
-    }
-
     #dwnldtxt{
         top:10px;
         font-size: 25px;
@@ -440,23 +423,6 @@ body{
         text-align: right;
         width:200px;
         font-family: 'Ubuntu', sans-serif;
-    }
-
-    #infobroch {
-        position: relative;
-        color: rgba(8, 0, 0, 0.274);
-        width: 311px;
-        left: -7px;
-        font-size: 18px;
-    }
-
-    .BR {
-        position: relative;
-        top: -137px;
-    }
-    .MA{
-            position: relative;
-            top: 300px;
     }
   }
   

@@ -21,3 +21,30 @@ function myMap() {
       function linkedin(){
         window.open("https://www.linkedin.com/company/lateralx/about/");
       }
+
+
+      var i=0;
+
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {
+    $('.count').each(function () {
+      $(this).prop('Counter',0).animate({
+          Counter: $(this).text()
+      }, {
+          duration: 4000,
+          easing: 'swing',
+          step: function (now) {
+            if(i<2)
+              $(this).text(Math.ceil(now));
+              if(now==78)
+              {
+                i++;
+              }
+          }
+      });
+  });
+  
+  }
+}
