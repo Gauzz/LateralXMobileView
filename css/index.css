@@ -108,6 +108,18 @@ body{
 
 }
 
+#space{
+    height:38px;
+}
+
+#space2{
+    height:75px;
+}
+
+#space3{
+    height: 70px;
+}
+
 .CR{
     text-align: center;
     margin: 5px;
@@ -248,10 +260,11 @@ body{
 }
 
 #brochvid{
+    position: relative;
     top:20px;
     left:18%;
     z-index: -1;
-    position:absolute;
+    
 }
 
 #brochure{
@@ -386,7 +399,7 @@ body{
     }
     
     #brochvid{
-        position: absolute;
+        position: relative;
         width: 160px;
         top: 329px;
         left: 16px;
@@ -421,12 +434,12 @@ body{
 
     .MA{
         position: relative;
-        top: 300px;
+        top: 347px;
         height: 950px
     }
 
     #picc{
-        margin-top: -108.5vw;
+        margin-top: -104.5vw;
        }
 
     .DW{
@@ -437,6 +450,7 @@ body{
     #bropicdiv{
         position: relative;
         left: 30px;
+        top:53px;
 }
 
 }
@@ -462,9 +476,33 @@ body{
         font-family: 'Ubuntu', sans-serif;
     }
 
+    #bropicdiv {
+        position: relative;
+        left: 30px;
+        top: 85px;
+    }
+
+    #serv{
+        position: relative;
+        top: 55px;
+    }
+
+    #space{
+        height: 180px;
+    }
+
+    #space2{
+        height: 175px
+    }
+
     #picc{
-        margin-top: -96.5vw;
+        margin-top: -70.5vw;
        }
+
+       .DW {
+        position: relative;
+        top: 120px;
+    }
   }
 
   
@@ -492,6 +530,215 @@ body{
        }
   }
   
+
+  @media only screen and (min-width: 768px){
+    .grad1 {
+        position: relative;
+        background-image: linear-gradient(rgb(4, 39, 92), rgb(59, 124, 197));
+        height: 962px;
+        width: 101vw;
+        left:-23px;
+
+            }
+    #space3{
+        height: 230px;
+    }
+
+    #logo {
+        position: absolute;
+        width: 40px;
+        top: 29px;
+        left: 14px;
+    }
+    
+    #introheadtext{
+        position: relative;
+        top: 27px;
+    }
+
+    #introtext {
+        position: relative;
+        top: 35px;
+    }
+
+    #pic {
+        margin-top: -29.875vw;
+        position: relative;
+        left: -7%;
+    }
+    .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 41%;
+    }
+
+    #pic1 {
+        width: 20.25vw;
+        z-index: -1;
+        position: absolute;
+        margin-top: 14.563vw;
+        margin-left: 7vw;
+    }
+    .vid {
+        width: 22.625vw;
+        position: absolute;
+        margin-top: 30.688vw;
+        margin-left: 18.438vw;
+    }
+
+    #pic2 {
+        width: 20.25vw;
+        z-index: -1;
+        position: absolute;
+        margin-top: 45vw;
+        margin-left: 32.188vw;
+    }
+
+    .VR {
+        height: 55vw;
+    }
+
+    .BR {
+        position: relative;
+        top: -90px;
+        height: 0px;
+    }
+
+    .MA {
+        position: relative;
+        top: 540px;
+        height: 950px;
+    }
+
+    #bropicdiv {
+        position: relative;
+        left: 30px;
+        top: -206px;
+    }
+
+    #brochvid {
+        position: relative;
+        width: 213px;
+        top: 348px;
+        left: 16px;
+    }
+
+    #brochure {
+        top: 240px;
+        width: 272px;
+        left: 34%;
+        position: relative;
+    }
+    #brochtext {
+        margin-left: -7px;
+        font-family: 'Ubuntu', sans-serif;
+        display: block;
+        margin-top: 141px;
+    }
+
+    #brochhead {
+        position: relative;
+        font-size: 28px;
+        text-align: right;
+        left: 133px;
+    }
+
+    #infobroch {
+        position: relative;
+        color: rgba(8, 0, 0, 0.274);
+        width: 310px;
+        left: 95px;
+        font-size: 18px;
+        text-align: right;
+    }
+
+    #bro {
+        position: absolute;
+        width: 25.688vw;
+        transform: rotate(8deg);
+        margin-top: 109.688vw;
+        z-index: -1;
+        margin-left: 22.438vw;
+    }
+
+    #serv {
+        position: relative;
+        top: 55px;
+    }
+
+    #build {
+        position: absolute;
+        width: 76vw;
+        margin-left: -25.125vw;
+        margin-top: 89.875vw;
+        z-index: -1;
+    }
+
+    #phone {
+        position: absolute;
+        width: 12.5vw;
+        margin-top: 110.938vw;
+        margin-left: 15.125vw;
+    }
+
+    #picc {
+        position: relative;
+        margin-top: -89.5vw;
+        left: 50px;
+    }
+
+    #info {
+        position: relative;
+        font-size: 18px;
+        font-family: 'Ubuntu', sans-serif;
+        width: 306px;
+    }
+
+    #space {
+        height: 45px;
+    }
+
+    #dwnldtxt {
+        top: 10px;
+        font-size: 25px;
+        color: white;
+        position: relative;
+        left: 18%;
+        text-align: center;
+        width: 500px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .bgrnd {
+        left: -24px;
+        background-color: black;
+    }
+
+    #dwnldbuilding {
+        position: absolute;
+        top: -33px;
+        left: 1px;
+        width: 264px;
+    }
+
+    #dwnldicon {
+        position: relative;
+        top: 0px;
+        left: 47%;
+        width: 70px;
+    }
+
+    .map{
+        position: relative;
+        left: 22px;
+        overflow: hidden;
+    }
+    
+    .FR{
+        margin-left: 48px;
+    }
+}
+
   
 
  
