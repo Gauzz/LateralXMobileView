@@ -124,6 +124,64 @@ body{
 
 }
 
+#cli{
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 18.458vw;
+    font-size: 21px;
+}
+
+#bsnl{
+    width: 17.227vw;
+    margin-left: 23.443vw;
+}
+
+#choit{
+    width: 17.227vw;
+    margin-left: 6.576vw;
+}
+
+#three{
+    width: 19.388vw;
+    margin-left: 20.268vw;
+}
+
+#vaish{
+    width: 25.146vw;
+    margin-left: 6.771vw;
+}
+
+
+#marvel{
+    width: 15.357vw;
+    margin-left: 23.49vw;
+}
+
+#jatra{
+    width: 14.51vw;
+    margin-left: 8.641vw;
+
+}
+
+#deccan{
+    width: 24.477vw;
+    margin-left: 19.659vw;
+
+}
+
+#list{
+    width: 11.25vw;
+    margin-left: 7.305vw;
+
+}
+
+}
+
+.CL{
+    width:100vw;
+    height: 265px;
+
+}
+
 .counter{
     font-family: 'Ubuntu', sans-serif;
     font-size:23px;
