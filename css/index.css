@@ -634,7 +634,7 @@ body{
         width: 306px;
     }
 
-    #dwnldtxt {
+    /* #dwnldtxt {
         top: 10px;
         font-size: 25px;
         color: white;
@@ -643,7 +643,7 @@ body{
         text-align: center;
         width: 500px;
         font-family: 'Ubuntu', sans-serif;
-    }
+    } */
 
     .bgrnd {
         left: -27px;
