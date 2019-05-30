@@ -138,8 +138,8 @@ body{
 
 #cli{
     font-family: 'Ubuntu', sans-serif;
-    /* margin-left: 18.458vw;
-    font-size: 21px; */
+    margin-left: 18.458vw;
+    font-size: 21px;
 }
 
 #bsnl{
@@ -766,6 +766,12 @@ body{
     
     .FR{
         margin-left: 48px;
+    }
+
+    #cli {
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 27.458vw;
+        font-size: 31px;
     }
 }
 
