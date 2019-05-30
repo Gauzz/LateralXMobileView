@@ -477,9 +477,10 @@ body{
     .grad1 {
         position: relative;
         background-image: linear-gradient(rgb(4, 39, 92), rgb(59, 124, 197));
-        height: 960px;
+        height: 959px;
         width: 101vw;
-        left: -23px;
+        left:-23px;
+
             }
     #space3{
         height: 570px;
@@ -576,12 +577,12 @@ body{
         margin-top: 141px;
     }
 
-    /* #brochhead {
+    #brochhead {
         position: relative;
         font-size: 28px;
         text-align: right;
         left: 133px;
-    } */
+    }
 
     #infobroch {
         position: relative;
