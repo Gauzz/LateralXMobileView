@@ -658,6 +658,13 @@ body{
         left: 1px;
         width: 264px;
     }
+
+    #dwnldicon {
+        position: relative;
+        top: 0px;
+        left: 47%;
+        width: 70px;
+    }
     
 }
 
