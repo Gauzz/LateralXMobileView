@@ -493,7 +493,10 @@ body{
         left: 14px;
     }
     
-    
+    #introheadtext{
+        position: relative;
+        top: 27px;
+    }
 
     #introtext {
         position: relative;
@@ -518,12 +521,7 @@ body{
         margin-top: 14.563vw;
         margin-left: 7vw;
     }
-    .vid {
-        width: 22.625vw;
-        position: absolute;
-        margin-top: 30.688vw;
-        margin-left: 18.438vw;
-    }
+    
 
     #pic2 {
         width: 20.25vw;
