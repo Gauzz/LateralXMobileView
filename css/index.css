@@ -427,15 +427,28 @@ body{
         font-size: 18px;
     }
 
-    .BR{
+    #counterdiv{
         position: relative;
-        top: -90px;
+        top: -210px;
     }
 
-    .MA{
+    .BR {
         position: relative;
-        top: 347px;
-        height: 950px
+        top: -331px;
+    }
+
+    .MA {
+        position: relative;
+        top: 100px;
+        height: 950px;
+    }
+
+    #space{
+        height: 0px;
+    }
+
+    #space2{
+        height: 0px;
     }
 
     #picc{
@@ -444,14 +457,14 @@ body{
 
     .DW{
         position: relative;
-        top: 75px;
+        top: -125px;
     }
 
-    #bropicdiv{
+    #bropicdiv {
         position: relative;
         left: 30px;
-        top:53px;
-}
+        top: 280px;
+    }
 
 }
 
