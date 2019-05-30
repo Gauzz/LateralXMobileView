@@ -138,8 +138,8 @@ body{
 
 #cli{
     font-family: 'Ubuntu', sans-serif;
-    margin-left: 18.458vw;
-    font-size: 21px;
+    /* margin-left: 18.458vw;
+    font-size: 21px; */
 }
 
 #bsnl{
@@ -492,7 +492,7 @@ body{
     #bropicdiv {
         position: relative;
         left: 30px;
-        top: 85px;
+        top: 330px;
     }
 
     #serv{
@@ -505,7 +505,12 @@ body{
     }
 
     #space2{
-        height: 175px
+        height: 20px
+    }
+
+    .BR {
+        position: relative;
+        top: -365px;
     }
 
     #picc{
@@ -514,7 +519,7 @@ body{
 
        .DW {
         position: relative;
-        top: 120px;
+        top: -95px;
     }
   }
 
@@ -532,15 +537,27 @@ body{
         font-size: 25px;
         color: white;
         position: relative;
-        left:51%;
+        left:49%;
         text-align: right;
         width:200px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .map {
+        width: 91%;
+        margin: 20px;
+        height: 300px;
+        align-content: center;
         font-family: 'Ubuntu', sans-serif;
     }
 
     #picc{
         margin-top: -89.5vw;
        }
+
+       #space {
+        height: 45px;
+    }
   }
   
 
@@ -708,7 +725,7 @@ body{
     }
 
     #space {
-        height: 45px;
+        height: 280px;
     }
 
     #dwnldtxt {
