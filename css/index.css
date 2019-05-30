@@ -576,12 +576,12 @@ body{
         margin-top: 141px;
     }
 
-    #brochhead {
+    /* #brochhead {
         position: relative;
         font-size: 28px;
         text-align: right;
         left: 133px;
-    }
+    } */
 
     #infobroch {
         position: relative;
