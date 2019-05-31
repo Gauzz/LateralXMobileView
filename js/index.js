@@ -21,6 +21,24 @@ function myMap() {
       function linkedin(){
         window.open("https://www.linkedin.com/company/lateralx/about/");
       }
+
+      $('#menu').singlePageNav({
+        offset: $('.single-page-nav').outerHeight(),
+        threshold: 120,
+        speed: 800,
+        currentClass: 'current',
+        easing: 'swing',
+        filter: ':not(.external)',
+        //up: <a href="https://www.jqueryscript.net/time-clock/">date</a>,
+        Hash: true,
+        beforeStart: function() {
+        console.log('begin scrolling');
+        },
+        onComplete: function() {
+        console.log('done scrolling');
+        }
+        });
+
       document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
         this.classList.toggle( "active" );
         if(document.querySelector('#nav-toggle').classList.contains("active")=='true')
