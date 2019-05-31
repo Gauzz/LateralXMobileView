@@ -886,6 +886,17 @@ body{
         top: -41px;
     }
 
+    #dwnldtxt {
+        position: relative;
+        left: 27%;
+        top: 30px;
+    }
+
+    #dwnldicon {
+        position: relative;
+        top: -15px
+    }
+
     .bgrnd {
         left: -34px;
     }
