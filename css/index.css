@@ -12,6 +12,81 @@ body{
     height:100vh;
    }  */
 
+   .curpage2 {
+    display: block;
+    width: 30px;
+    position: absolute;
+    top: 28px;
+    right: 20px;
+    z-index: 5;
+}
+
+#menu{    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    
+
+}
+    
+.menubut{display:block;
+    width:80%;
+    height:auto;
+    font-family:'Ubuntu',sans-serif;
+    font-size:24px;
+    border:0;
+    margin-top:26px;
+    margin-left:10px;
+    background-color:transparent;
+    columns: #000000;
+    text-align:justify;
+    line-height:28px
+}
+.menubut:focus{outline:0
+}
+
+#nav-toggle {
+    cursor: pointer
+}
+
+#nav-toggle span,#nav-toggle span:before,#nav-toggle span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 4px;
+    width: 35px;
+    background: #fff;
+    position: absolute;
+    display: block;
+    content: ''
+}
+
+#nav-toggle span:before {
+    top: -12px
+}
+
+#nav-toggle span,#nav-toggle span:before,#nav-toggle span:after {
+    transition: all 500ms ease-in-out
+}
+
+#nav-toggle.active span {
+    background-color: transparent
+}
+
+#nav-toggle.active span:before,#nav-toggle.active span:after {
+    top: 0
+}
+
+#nav-toggle.active span:before {
+    transform: rotate(45deg)
+}
+
+#nav-toggle.active span:after {
+    transform: rotate(-45deg)
+}
+
    #build{
     position: absolute;
     width: 125vw;
@@ -186,7 +261,7 @@ body{
 
 }
 
-}
+
 
 .CL{
     width:100vw;

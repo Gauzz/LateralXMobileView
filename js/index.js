@@ -21,7 +21,54 @@ function myMap() {
       function linkedin(){
         window.open("https://www.linkedin.com/company/lateralx/about/");
       }
+      document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
+        this.classList.toggle( "active" );
+        if(document.querySelector('#nav-toggle').classList.contains("active")=='true')
+      {
+        document.querySelector('#nav-toggle').style.color="black";
+      }
+      
+      else{
+        document.querySelector('#nav-toggle').style.color="white";
+      }
+      
+        var windowsize = $(window).width();
+        if(windowsize>=1000){
+        $('.menubut').attr('width','9%');
+        }
+      if($('#nav-toggle').hasClass('active')){
+         $('#menu').fadeIn("fast");
+         
+         $('.cover').fadeOut("fast");
+         $('.create').fadeOut("fast");
+        var windowsize = $(window).width();
+        if(windowsize<=425){
+         $('.searc2').fadeOut("fast");
+        }
+        
+         $('.next').fadeOut("fast");
+         }
+      else{
+        $('#menu').fadeOut("fast");
+        $('.cover').fadeIn("fast");
+        $('.brands').fadeIn("fast");
+        var windowsize = $(window).width();
+        if(windowsize<=425){
+        $('.searc2').fadeIn("fast");
+        }
+        if(window.location.href != "https://www.lateralx.com/about")
+        $('.create').fadeIn("fast");
+        $('.next').fadeIn("fast");
+        $('body').css('overflow','auto');
+        }    
+      
+      }        
+      );
 
+      $(".menubut").click(function()
+  {
+    $("#menu").fadeOut();
+  });
 
       var i=0;
 
