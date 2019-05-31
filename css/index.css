@@ -309,6 +309,9 @@ body{
     align-content: center;
     font-family: 'Ubuntu', sans-serif;
 }
+#contac{
+    margin-top:125px;
+}
 
 .contacts{
     /* width: 286px; */
