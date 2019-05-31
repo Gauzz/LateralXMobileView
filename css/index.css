@@ -775,6 +775,43 @@ body{
     }
 }
 
+@media only screen and (min-width: 1024px){
+    #logo {
+        width: 77px;
+    }
+
+    #introheadtext {
+        position: relative;
+        top: 67px;
+        width: 559px;
+    }
+
+    #introtext {
+        position: relative;
+        top: 73px;
+        width: 335px;
+    }
+
+    #imag{
+        position: relative;
+        top:5px;
+        left:25px;
+        
+    }
+    .grad1 {
+        position: relative;
+        background-image: linear-gradient(rgb(4, 39, 92), rgb(59, 124, 197));
+        height: 1182px;
+        width: 108vw;
+        left: -33px;
+    }
+
+    #pic {
+        margin-top: -24.875vw;
+        position: relative;
+        left: 0%;
+    }
+}
   
 
  
