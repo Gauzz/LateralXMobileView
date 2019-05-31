@@ -811,6 +811,86 @@ body{
         position: relative;
         left: 0%;
     }
+
+    #infobroch {
+        position: relative;
+        color: rgba(8, 0, 0, 0.274);
+        width: 343px;
+        left: 191px;
+        font-size: 18px;
+        text-align: right;
+    }
+
+    .VR {
+        height: 64vw;
+    }
+
+    .BR {
+        position: relative;
+        top: -90px;
+        height: 200px;
+    }
+
+    #brochhead {
+        position: relative;
+        font-size: 28px;
+        text-align: right;
+        left: 165px;
+    }
+
+    #brochtext {
+        margin-left: -7px;
+        font-family: 'Ubuntu', sans-serif;
+        display: block;
+        margin-top: 240px;
+    }
+
+    #brochvid {
+        position: relative;
+        width: 290px;
+        top: 348px;
+        left: 16px;
+    }
+
+    #brochure {
+        top: 214px;
+        width: 314px;
+        left: 38%;
+        position: relative;
+    }
+    
+    #picc {
+        position: relative;
+        margin-top: -89.5vw;
+        left: 66px;
+    }
+
+    #space {
+        height: 459px;
+    }
+
+    .DW {
+        position: relative;
+        top: -41px;
+    }
+
+    #space2 {
+        height: 156px;
+    }
+
+    #cli {
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 33.458vw;
+        font-size: 28px;
+    }
+
+    #space4{
+        height: 90px;
+    }
+
+    .FR {
+        margin-left: 190px;
+    }
 }
   
 
