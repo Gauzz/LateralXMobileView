@@ -104,6 +104,12 @@ body{
 
     }
 
+    #emailtxt{
+        height:35px;
+
+    }
+    
+
 #bro{
     position: absolute;
     width: 39.688vw;
@@ -426,6 +432,8 @@ body{
 
 #footer{
     font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    top: -50px;
 }
 
 @media only screen and (min-width: 320px) {
@@ -502,15 +510,28 @@ body{
         font-size: 18px;
     }
 
-    .BR{
+    #counterdiv{
         position: relative;
-        top: -90px;
+        top: -210px;
     }
 
-    .MA{
+    .BR {
         position: relative;
-        top: 347px;
-        height: 950px
+        top: -331px;
+    }
+
+    .MA {
+        position: relative;
+        top: 100px;
+        height: 950px;
+    }
+
+    #space{
+        height: 0px;
+    }
+
+    #space2{
+        height: 0px;
     }
 
     #picc{
@@ -519,14 +540,14 @@ body{
 
     .DW{
         position: relative;
-        top: 75px;
+        top: -125px;
     }
 
-    #bropicdiv{
+    #bropicdiv {
         position: relative;
         left: 30px;
-        top:53px;
-}
+        top: 280px;
+    }
 
 }
 
@@ -554,7 +575,7 @@ body{
     #bropicdiv {
         position: relative;
         left: 30px;
-        top: 85px;
+        top: 330px;
     }
 
     #serv{
@@ -567,7 +588,12 @@ body{
     }
 
     #space2{
-        height: 175px
+        height: 20px
+    }
+
+    .BR {
+        position: relative;
+        top: -365px;
     }
 
     #picc{
@@ -576,7 +602,7 @@ body{
 
        .DW {
         position: relative;
-        top: 120px;
+        top: -95px;
     }
   }
 
@@ -594,15 +620,27 @@ body{
         font-size: 25px;
         color: white;
         position: relative;
-        left:51%;
+        left:49%;
         text-align: right;
         width:200px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .map {
+        width: 91%;
+        margin: 20px;
+        height: 300px;
+        align-content: center;
         font-family: 'Ubuntu', sans-serif;
     }
 
     #picc{
         margin-top: -89.5vw;
        }
+
+       #space {
+        height: 45px;
+    }
   }
   
 
@@ -612,7 +650,7 @@ body{
         background-image: linear-gradient(rgb(4, 39, 92), rgb(59, 124, 197));
         height: 962px;
         width: 101vw;
-        left:-23px;
+        left:-25px;
 
             }
     #space3{
@@ -770,7 +808,7 @@ body{
     }
 
     #space {
-        height: 45px;
+        height: 280px;
     }
 
     #dwnldtxt {
@@ -812,8 +850,154 @@ body{
     .FR{
         margin-left: 48px;
     }
+
+    #cli {
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 27.458vw;
+        font-size: 28px;
+    }
+
+    #emailtxt{
+        height: 50px;
+    }
 }
 
+@media only screen and (min-width: 1024px){
+    #logo {
+        width: 77px;
+    }
+
+    #introheadtext {
+        position: relative;
+        top: 67px;
+        width: 559px;
+    }
+
+    #introtext {
+        position: relative;
+        top: 73px;
+        width: 335px;
+    }
+
+    #imag{
+        position: relative;
+        top:5px;
+        left:25px;
+        
+    }
+    .grad1 {
+        position: relative;
+        background-image: linear-gradient(rgb(4, 39, 92), rgb(59, 124, 197));
+        height: 1181px;
+        width: 108vw;
+        left: -33px;
+    }
+
+    #pic {
+        margin-top: -24.875vw;
+        position: relative;
+        left: 0%;
+    }
+
+    #infobroch {
+        position: relative;
+        color: rgba(8, 0, 0, 0.274);
+        width: 343px;
+        left: 191px;
+        font-size: 18px;
+        text-align: right;
+    }
+
+    .VR {
+        height: 64vw;
+    }
+
+    .BR {
+        position: relative;
+        top: -90px;
+        height: 200px;
+    }
+
+    #brochhead {
+        position: relative;
+        font-size: 28px;
+        text-align: right;
+        left: 165px;
+    }
+
+    #brochtext {
+        margin-left: -7px;
+        font-family: 'Ubuntu', sans-serif;
+        display: block;
+        margin-top: 240px;
+    }
+
+    #brochvid {
+        position: relative;
+        width: 290px;
+        top: 348px;
+        left: 16px;
+    }
+
+    #brochure {
+        top: 214px;
+        width: 314px;
+        left: 38%;
+        position: relative;
+    }
+    
+    #picc {
+        position: relative;
+        margin-top: -89.5vw;
+        left: 66px;
+    }
+
+    #space {
+        height: 459px;
+    }
+
+    .DW {
+        position: relative;
+        top: -41px;
+    }
+
+    #dwnldtxt {
+        position: relative;
+        left: 27%;
+        top: 30px;
+    }
+
+    #dwnldicon {
+        position: relative;
+        top: -15px
+    }
+
+    .bgrnd {
+        left: -34px;
+    }
+
+    #space2 {
+        height: 156px;
+    }
+
+    #cli {
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 33.458vw;
+        font-size: 28px;
+    }
+
+    #space4{
+        height: 90px;
+    }
+
+    .FR {
+        margin-left: 175px;
+    }
+
+    #emailtxt{
+        height: 50px;
+    }
+}
   
 
  
