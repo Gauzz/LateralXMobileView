@@ -29,6 +29,12 @@ body{
 
     }
 
+    #emailtxt{
+        height:35px;
+
+    }
+    
+
 #bro{
     position: absolute;
     width: 39.688vw;
@@ -889,7 +895,11 @@ body{
     }
 
     .FR {
-        margin-left: 190px;
+        margin-left: 175px;
+    }
+
+    #emailtxt{
+        height: 50px;
     }
 }
   
