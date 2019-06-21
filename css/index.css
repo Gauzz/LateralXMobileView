@@ -76,7 +76,8 @@ body{
 }
 
 #nav-toggle.active span:before,#nav-toggle.active span:after {
-    top: 0
+    top: 0;
+    background-color: black;
 }
 
 #nav-toggle.active span:before {

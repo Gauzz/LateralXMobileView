@@ -56,7 +56,7 @@ function myMap() {
         }
       if($('#nav-toggle').hasClass('active')){
          $('#menu').fadeIn("fast");
-         
+         $('body').css('hidden','auto');
          $('.cover').fadeOut("fast");
          $('.create').fadeOut("fast");
         var windowsize = $(window).width();
