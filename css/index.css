@@ -566,7 +566,12 @@ body{
         left:0px;
         position:absolute;
     }
+     
 
+    .fixedPosition
+    {
+    position: fixed;
+     }
     #dwnldtxt{
         top:10px;
         font-size: 25px;

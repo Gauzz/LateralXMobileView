@@ -56,7 +56,7 @@ function myMap() {
         }
       if($('#nav-toggle').hasClass('active')){
          $('#menu').fadeIn("fast");
-         $('body').css('hidden','auto');
+         $('body').addClass("fixedPosition");
          $('.cover').fadeOut("fast");
          $('.create').fadeOut("fast");
         var windowsize = $(window).width();
@@ -68,6 +68,7 @@ function myMap() {
          }
       else{
         $('#menu').fadeOut("fast");
+        $('body').removeClass("fixedPosition");
         $('.cover').fadeIn("fast");
         $('.brands').fadeIn("fast");
         var windowsize = $(window).width();
