@@ -88,28 +88,7 @@ function myMap() {
   {
     $("#menu").fadeOut();
   });
-  var $overlay = $('.menubut'),
-    $nav = $('.menu'),
-    $links = $('.menubut a');
-
-// descriptive names
-function funcToggleNav() {
-  $overlay.toggle("slow");
-}
-
-function funcToggleBurger () {
-  $nav.toggleClass("active");
-}
-
-$nav.on("click", function () {
-  funcToggleBurger();
-  funcToggleNav();
-});
-
-$links.on("click", function () {
-  funcToggleBurger();
-  funcToggleNav();
-})
+ 
 
 
 
