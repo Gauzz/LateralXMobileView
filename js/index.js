@@ -88,9 +88,9 @@ function myMap() {
   {
     $("#menu").fadeOut();
   });
-  var $overlay = $('#overlay'),
+  var $overlay = $('.menubut'),
     $nav = $('#nav-toggle'),
-    $links = $('#overlay a');
+    $links = $('.menubut a');
 
 // descriptive names
 function funcToggleNav() {
