@@ -89,7 +89,7 @@ function myMap() {
     $("#menu").fadeOut();
   });
   var $overlay = $('.menubut'),
-    $nav = $('#nav-toggle'),
+    $nav = $('.menu'),
     $links = $('.menubut a');
 
 // descriptive names
