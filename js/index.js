@@ -88,6 +88,39 @@ function myMap() {
   {
     $("#menu").fadeOut();
   });
+  var $overlay = $('#overlay'),
+    $nav = $('#nav-toggle'),
+    $links = $('#overlay a');
+
+// descriptive names
+function funcToggleNav() {
+  $overlay.toggle("slow");
+}
+
+function funcToggleBurger () {
+  $nav.toggleClass("active");
+}
+
+$nav.on("click", function () {
+  funcToggleBurger();
+  funcToggleNav();
+});
+
+$links.on("click", function () {
+  funcToggleBurger();
+  funcToggleNav();
+})
+
+
+
+
+
+
+
+
+
+
+
 
       var i=0;
 
