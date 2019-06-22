@@ -55,6 +55,51 @@ function myMap() {
         $('.menubut').attr('width','9%');
         }
       if($('#nav-toggle').hasClass('active')){
+        var body = document.body,
+        overlay = document.querySelector('.overlay'),
+        overlayBtts = document.querySelectorAll('button[class$="overlay"]');
+    
+    [].forEach.call(overlayBtts, function(btt) {
+    
+      btt.addEventListener('click', function() { 
+    
+         /* Detect the button class name */
+         var overlayOpen = this.className === 'open-overlay';
+    
+         /* Toggle the aria-hidden state on the overlay and the 
+            no-scroll class on the body */
+         overlay.setAttribute('aria-hidden', !overlayOpen);
+         body.classList.toggle('noscroll', overlayOpen);
+    
+         /* On some mobile browser when the overlay was previously
+            opened and scrolled, if you open it again it doesn't 
+            reset its scrollTop property */
+         overlay.scrollTop = 0;
+    
+      }, false);
+    
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
          $('#menu').fadeIn("fast");
          
          $('.cover').fadeOut("fast");
@@ -91,7 +136,7 @@ function myMap() {
 
       var i=0;
 
-    //  window.onscroll = function() {myFunction()}; 
+      window.onscroll = function() {myFunction()}; 
 
 function myFunction() {
   if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {
