@@ -56,7 +56,7 @@ function myMap() {
         }
       if($('#nav-toggle').hasClass('active')){
          $('#menu').fadeIn("fast");
-         $('body').addClass("fixedPosition");
+         
          $('.cover').fadeOut("fast");
          $('.create').fadeOut("fast");
         var windowsize = $(window).width();
@@ -68,7 +68,7 @@ function myMap() {
          }
       else{
         $('#menu').fadeOut("fast");
-        $('body').removeClass("fixedPosition");
+       
         $('.cover').fadeIn("fast");
         $('.brands').fadeIn("fast");
         var windowsize = $(window).width();
@@ -91,7 +91,7 @@ function myMap() {
 
       var i=0;
 
-window.onscroll = function() {myFunction()};
+    //  window.onscroll = function() {myFunction()}; 
 
 function myFunction() {
   if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {
