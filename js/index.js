@@ -88,6 +88,7 @@ function myMap() {
         {
           $("#menu").fadeOut();
           document.querySelector('#nav-toggle').classList.remove("active");
+          $('body').css('overflow','auto');
         });
     
        var i=0;
