@@ -85,23 +85,12 @@ function myMap() {
       );
 
       $(".menubut").click(function()
-  {
-    $("#menu").fadeOut();
-  });
- 
-
-
-
-
-
-
-
-
-
-
-
-
-      var i=0;
+        {
+          $("#menu").fadeOut();
+          document.querySelector('#nav-toggle').classList.remove("active");
+        });
+    
+       var i=0;
 
       window.onscroll = function() {myFunction()}; 
 
